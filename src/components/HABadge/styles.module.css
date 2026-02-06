@@ -1,0 +1,24 @@
+.badge {
+    margin: 0 0.25em;
+    transition: background-color 0.2s ease;
+
+    display: inline-flex;
+    align-items: center;
+    background-color: #1fbcef;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    text-decoration: none;
+
+    span {
+        padding-right: 0.5em;
+    }
+}
+
+.badge:hover {
+    background-color: #0b799d;
+}
+
+

@@ -1,0 +1,8 @@
+{
+  "label": "Rekuperační jednoky",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Seznam podporovaných rekuperačních jednotek a návody jak je připojit"
+  }
+}

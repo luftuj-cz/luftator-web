@@ -1,0 +1,21 @@
+.params {
+
+    th,td {
+        padding: 0.1em 1em;
+    }
+
+    th {
+        text-align: right;
+        background-color: #E0E0E0;
+    }
+
+}
+
+[data-theme='dark'] .params {
+    th {
+        background-color: #606060;
+    }
+}
+
+
+
