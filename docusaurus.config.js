@@ -101,7 +101,7 @@ const config = {
               },
               {
                 label: 'Podporované rekuperační jednotky',
-                to: '/docs/category/rekuperační-jednoky',
+                to: '/docs/rekuperacni-jednotky',
               },
             ],
           },

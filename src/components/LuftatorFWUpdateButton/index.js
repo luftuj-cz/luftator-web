@@ -1,7 +1,17 @@
+import { useEffect } from 'react';
 import styles from './styles.module.css';
-import "https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module";
 
 export default function LuftatorFWUpdateButton({ version }) {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module';
+        script.type = 'module';
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
     const manifest = {
         "name": "Luftator",
         "version": version,
