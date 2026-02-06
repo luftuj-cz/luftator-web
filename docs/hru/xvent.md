@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -8,18 +8,25 @@ import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
 # Xvent
 
-Připojení jednotek Xhouse a Xflat od společnosti [Xvent](https://xvent.cz/) k Home Assistantu pomocí aplikace LUFTaTOR.
+Připojení rekuperačních jednotek Xhouse a Xflat od společnosti [Xvent](https://xvent.cz/) k Home Assistantu pomocí aplikace LUFTaTOR.
+
+:::tip
+
+Podpořte tento open-source projekt zakoupením rekuperační jednotky Xhouse, Xflat či příslušenství k ní na eShopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/xvent/)
+
+:::
+
 
 ## Parametry integrace
 
-<HRUIntegrationParams interf="ModbusRTU" power="stupně 0 - 7" />
+<HRUIntegrationParams interf="ModbusTCP" power="stupně 0 - 7"></HRUIntegrationParams>
 
 ## Připojení jednotky
 
 Rekuperační jednotky disponují rozhraním ModbusRTU, pro připojení je tedy třeba nejprve zakoupit převodník umožňující
 převádět ModbusRTU na ModbusTCP.
 
-Použít můžete například převodník [Waveshare RS485 to RJ45 Ethernet](https://www.waveshare.com/rs485-to-eth-b.htm), který lze zakoupit například na [RPIShop.cz](https://rpishop.cz/seriove-servery/4615-waveshare-prumyslovy-seriovy-server-rs485-na-rj45-ethernet-tcpip.htm)
+Použít můžete například převodník [Waveshare RS485 to RJ45 Ethernet](https://www.waveshare.com/rs485-to-eth-b.htm).
 
 Zapojení Modbus RTU na RJ45 konektoru na Xvent jednotkách je následující:
 

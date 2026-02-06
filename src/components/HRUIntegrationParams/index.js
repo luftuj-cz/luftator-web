@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 
 function formatParam(param) {
-    if (param === true) {
+    if (param === true || param === "true") {
         return 'ANO';
     }
     if (param) {
