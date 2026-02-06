@@ -92,12 +92,12 @@ const config = {
             title: 'Stránky',
             items: [
               {
-                label: 'Úvod',
+                label: 'Návody',
                 to: '/docs/intro',
               },
               {
-                label: 'Aplikace LUFTaTOR',
-                to: '/docs/category/aplikace-luftator',
+                label: 'Aktualizace firmware LUFTaTOR',
+                to: '/firmware-updater',
               },
               {
                 label: 'Podporované rekuperační jednotky',
@@ -129,10 +129,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/luftuj-cz/luftator-web',
               },
+              {
+                label: 'Podpoř nás nákupem na Luftuj.cz',
+                href: 'https://www.luftuj.cz/vyroba-luftuj/regulace-a-zonovani-systemu-75-a-90-mm/',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Luftuj s.r.o.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://luftuj.cz">Luftuj s.r.o.</a>`,
       },
       prism: {
         theme: prismThemes.github,
