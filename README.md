@@ -1,5 +1,9 @@
 # Website
 
+The source code of the website [luftator.eu](https://luftator.eu)
+
+The web is maintained by [Luftuj s.r.o.](https://luftuj.cz)
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation

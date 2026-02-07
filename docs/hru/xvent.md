@@ -82,3 +82,8 @@ Nastavte parametry:
   * Flow control: None
 - Mlity-Host Settings
   * Protocol: Modbus TCP to RTU
+
+## Nastavení v aplikaci LUFTaTOR
+
+- Zvolte typ jednotky `Xvent`
+- Zadejte IP adresu převodníku a port 502
