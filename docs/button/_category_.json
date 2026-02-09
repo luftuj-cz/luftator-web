@@ -1,0 +1,9 @@
+{
+  "label": "Tlačítka",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "slug": "/tlacitka",
+    "description": "Tlačítka připojitelná do Home Assistantu"
+  }
+}
