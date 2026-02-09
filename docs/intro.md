@@ -11,7 +11,7 @@ nebo [založte issue](https://github.com/luftuj-cz/home-assistant/issues/new), k
 
 :::tip
 
-Podpořte tento open-source projekt nákupem na eShopu [Luftuj.cz](https://www.luftuj.cz/)
+Podpořte tento open-source projekt nákupem na eshopu [Luftuj.cz](https://www.luftuj.cz/)
 
 :::
 

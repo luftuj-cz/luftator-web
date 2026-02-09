@@ -10,7 +10,7 @@ Připojení rekuperačních jednotek Atrea Duplex s řízením RD5 od společnos
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Atrea Duplex či příslušenství k ní na eShopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/atrea/)
+Podpořte tento open-source projekt zakoupením rekuperační jednotky Atrea Duplex či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/atrea/)
 
 :::
 

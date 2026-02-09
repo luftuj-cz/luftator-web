@@ -7,3 +7,9 @@ sidebar_position: 3
 Popis jak nastavit týdenní programy a boost tlačítka v aplikaci. 
 
 
+:::note
+
+Tato stránka se připravuje... Děkujeme za trpělivost.
+
+:::
+

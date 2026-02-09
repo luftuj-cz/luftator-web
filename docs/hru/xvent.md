@@ -12,7 +12,7 @@ Připojení rekuperačních jednotek Xhouse a Xflat od společnosti [Xvent](http
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Xhouse, Xflat či příslušenství k ní na eShopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/xvent/)
+Podpořte tento open-source projekt zakoupením rekuperační jednotky Xhouse, Xflat či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/xvent/)
 
 :::
 
