@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
-# Atrea Duplex ECV RD5
+# Atrea Duplex RD5
 
 Připojení rekuperačních jednotek Atrea Duplex s řízením RD5 od společnosti [Atrea](https://atrea.eu/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
@@ -41,7 +41,7 @@ Pokud nemáte přístup do servisního nastavení, kontaktujte autorizovaného s
 
 ## Nastavení v aplikaci LUFTaTOR
 
-- Zvolte typ jednotky `Atrea Duplex ECV RD5`
+- Zvolte typ jednotky `Atrea Duplex RD5`
 - Zadejte IP adresu Vaší rekuperační jednotky a port 502
 
 
