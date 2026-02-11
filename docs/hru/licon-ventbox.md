@@ -1,56 +1,43 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
-# Xvent
+# Licon VENTBOX
 
-Připojení rekuperačních jednotek Xhouse a Xflat od společnosti [Xvent](https://xvent.cz/) k Home Assistantu pomocí aplikace LUFTaTOR.
+Připojení rekuperačních jednotek Xhouse a Xflat od společnosti [Licon](https://licon.cz/) člena skupiny KORADO k Home Assistantu pomocí aplikace LUFTaTOR.
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Xhouse, Xflat či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/xvent/)
+Podpořte tento open-source projekt zakoupením rekuperační jednotky Licon VENTBOX či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/korado-a-s/)
 
 :::
 
 
 ## Parametry integrace
 
-<HRUIntegrationParams interf="ModbusTCP" power="stupně 0 - 7"></HRUIntegrationParams>
+<HRUIntegrationParams interf="ModbusTCP" power="0-100%"></HRUIntegrationParams>
 
 ## Připojení jednotky
 
-Rekuperační jednotky Xhouse a Xflat disponují rozhraním ModbusRTU, pro připojení je tedy třeba nejprve zakoupit převodník umožňující
+Rekuperační jednotky Licon VENTBOX disponují rozhraním ModbusRTU, pro připojení je tedy třeba nejprve zakoupit převodník umožňující
 převádět ModbusRTU na ModbusTCP.
 
 Použít můžete například cenově dostupný převodník [Waveshare RS485 to RJ45 Ethernet](https://www.waveshare.com/rs485-to-eth-b.htm).
 
-Zapojení Modbus RTU na RJ45 konektoru na Xvent jednotkách je následující:
+Zapojení Modbus RTU na jednotkách Licon VENTBOX je následující
 
-![RJ45](/img/rj45.jpg)
+![Připojení modbus rozhraní na jednotkách Licon VENTBOX](./img/licon-modbus.png)
 
-Kontakty:
-1) nezapojeno
-2) nezapojeno
-3) RS485-A
-4) RS485-A
-5) RS485-B
-6) RS485-B
-7) nezapojeno
-8) nezapojeno
+## Nastavení jednotky
 
-Připravte si tedy takovýto kabel
+- Jednotka musí být nastavena na: Režim – Týdenní
+- V nastavení chodu v týdenním režimu (ikona kalendář) nastavit na všech 10 možných režimech v nastavení dnů jen samé čárky, aby jednotka poslouchala nadřazený systém
+- V tabulce Modbus je nutné dodržet pokyny v zelené tabulce
 
-![RJ45-RS485 Xvent](./img/rj45-rs485-xvent.png)
-
-- Připravte si libovolný zdroj stejnosměrného proudu 9-24V a zapojte ho do napájecí svorkovnice převodníku Waveshare.
-- Datové vodiče zapojte do svorkovnice označené 485A a 485B a druhý konec opatřený konektorem RJ45 zapojte do jednotky Xvent. 
-- Síťový kabel připojte do zdířky RJ45 na převodníku Waveshare.
-
-![Waveshare Xvent](./img/waveshare-xvent.png)
 
 ## Konfigurace převodníku
 
@@ -85,5 +72,5 @@ Nastavte parametry:
 
 ## Nastavení v aplikaci LUFTaTOR
 
-- Zvolte typ jednotky `Xvent`
+- Zvolte typ jednotky `Licon VENTBOX`
 - Zadejte IP adresu převodníku a port 502

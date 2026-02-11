@@ -25,6 +25,8 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  plugins: ["@cmfcmf/docusaurus-search-local"],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'luftuj-cz', // Usually your GitHub org/user name.

@@ -17,7 +17,7 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Atrea Dup
 
 ## Parametry integrace
 
-<HRUIntegrationParams interf="ModbusTCP" power="procenta 0-100%" temperature="true" mode="true"></HRUIntegrationParams>
+<HRUIntegrationParams interf="ModbusTCP" power="0-100%" temperature="true" mode="true"></HRUIntegrationParams>
 
 ## Připojení jednotky
 
