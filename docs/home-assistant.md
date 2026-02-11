@@ -71,3 +71,23 @@ title="Přidat repozitář zigbee2mqtt/hassio-zigbee2mqtt"
 - Po jeho instalaci klikněte na tlačítko `Spustit`.
 - Klikněte na `Otevřít webové rozhraní` (pokud se zobrazí chyba 503, prověďte obnovení stránky)
 - V nastavení vyberte adaptér (obvykle `/dev/ttyUSB0`)
+
+### Přístup z internetu
+
+Home Assistant nabízí přístup z internetu pomocí brány [NabuCasa](https://www.nabucasa.com/), tato služba je však placena částkou 7,50 EUR za měsíc. Pokud chcete vývoj Home Assistantu podpořit, zvažte zakoupení této služby.
+
+Přístup si však můžete elegantně vyřešit také zdarma pomocí služby [Tailscale](https://tailscale.com/), která Vám umožňuje bezplatně propojit až 100 zařízení.
+
+- Vytvořte si bezplatný účet na [Tailscale.com](https://tailscale.com/)
+- Nahrajte si aplikaci Tailscale do svého mobilního telefonu a přihlašte se vytvořeným účtem
+- Do svého Home Assistantu přidejte plugin Tailscale a postupujte podle [oficiálního návodu](https://www.home-assistant.io/integrations/tailscale/)
+
+<HABadge
+redirect="config_flow_start?domain=tailscale"
+text="Nastavit Tailscale na"
+title="Nastavit Tailscale na Vašem Home Assistantovi"
+/>
+
+- V aplikaci Home Assistant poté nastavte přístup pomocí IP adresy, kterou najdete v aplikaci Tailscale
+
+![Aplikace Tailscale](/img/tailscale-app.png)
