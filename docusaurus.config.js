@@ -48,7 +48,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/luftuj-cz/luftator-web',
+            'https://github.com/luftuj-cz/luftator-web/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
