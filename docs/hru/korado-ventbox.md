@@ -6,13 +6,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
-# Licon VENTBOX
+# KORADO VENTBOX
 
-Připojení rekuperačních jednotek Xhouse a Xflat od společnosti [Licon](https://licon.cz/) člena skupiny KORADO k Home Assistantu pomocí aplikace LUFTaTOR.
+Připojení rekuperačních jednotek VENTBOX od společnosti [Korado](https://korado.cz/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Licon VENTBOX či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/korado-a-s/)
+Podpořte tento open-source projekt zakoupením rekuperační jednotky KORADO VENTBOX či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/korado-a-s/)
 
 :::
 
@@ -23,14 +23,14 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Licon VEN
 
 ## Připojení jednotky
 
-Rekuperační jednotky Licon VENTBOX disponují rozhraním ModbusRTU, pro připojení je tedy třeba nejprve zakoupit převodník umožňující
+Rekuperační jednotky KORADO VENTBOX disponují rozhraním ModbusRTU, pro připojení je tedy třeba nejprve zakoupit převodník umožňující
 převádět ModbusRTU na ModbusTCP.
 
 Použít můžete například cenově dostupný převodník [Waveshare RS485 to RJ45 Ethernet](https://www.waveshare.com/rs485-to-eth-b.htm).
 
-Zapojení Modbus RTU na jednotkách Licon VENTBOX je následující
+Zapojení Modbus RTU na jednotkách KORADO VENTBOX je následující
 
-![Připojení modbus rozhraní na jednotkách Licon VENTBOX](./img/licon-modbus.png)
+![Připojení modbus rozhraní na jednotkách KORADO VENTBOX](./img/korado-modbus.png)
 
 ## Nastavení jednotky
 
@@ -72,5 +72,5 @@ Nastavte parametry:
 
 ## Nastavení v aplikaci LUFTaTOR
 
-- Zvolte typ jednotky `Licon VENTBOX`
+- Zvolte typ jednotky `KORADO VENTBOX`
 - Zadejte IP adresu převodníku a port 502
