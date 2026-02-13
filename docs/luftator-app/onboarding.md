@@ -34,7 +34,7 @@ Pro prvotní nastavení aplikace LUFTaTOR je k dispozici přehledný průvodce.
 - LUFTaTOR Control i LUFTaTOR app využívá MQTT je tedy třeba nastavit adresu na MQTT broker.
 - Pokud využíváte aplikaci Mosquitto uvnitř Home Assistantu, hostitel bude obvykle adresa 
   Vašeho Home Assistantu (např. homeassistant.local), číslo portu 1883 a uživatelské jméno a heslo bude odpovídat Vašemu přihlášení do HomeAssistantu. Z bezpečnostních důvodů
-  je však lepší používat jiné přihlašovací údaje, které si můžete nadefinovat přihlašovací údaje můžete nastavit v nastavení aplikace Mosquitto.
+  je však lepší používat jiné přihlašovací údaje, které si můžete nadefinovat v nastavení aplikace Mosquitto.
 - Kliknutím na tlačítko "Testovat připojení" ověříte, zda je MQTT broker dostupný a lze se na něj přihlásit se zadanými přihlašovacími údaji.
 
 ## Modbus

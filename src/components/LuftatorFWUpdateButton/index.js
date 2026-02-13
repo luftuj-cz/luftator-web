@@ -29,9 +29,10 @@ export default function LuftatorFWUpdateButton({ version }) {
 
     const json = JSON.stringify(manifest);
     const blob = new Blob([json], {type: "application/json"});
+
   return (
-    <esp-web-install-button className={styles.updateBtn}>
-        <button slot="activate" id="update-button" manifest={URL.createObjectURL(blob)}>Aktualizovat firmware na verzi {version}</button>
+    <esp-web-install-button className={styles.updateBtn} manifest={URL.createObjectURL(blob)}>
+        <button slot="activate" id="update-button">Aktualizovat firmware na verzi {version}</button>
         <span slot="unsupported" class="warning">Váš prohlížeč nepodporuje WebUSB API. Prosím použijte prohlížeč založený na Chromiu (Chrome, Edge...)</span>
         <span slot="not-allowed" class="warning">Přístup k USB není povolen ve Vašem prohlížeči. Prosím povolte ho.</span>
     </esp-web-install-button>
