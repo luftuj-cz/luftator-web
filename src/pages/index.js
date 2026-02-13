@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Vzduchotechnika a multizónové větrání v domácích automatizacích">
+      description="Vzduchotechnika a multizónové větrání v domácích automatizacích Home Assistant">
       <HomepageHeader />
       <main>
       </main>

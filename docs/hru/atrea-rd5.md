@@ -47,6 +47,9 @@ Pokud nemáte přístup do servisního nastavení, kontaktujte autorizovaného s
 
 ## Nastavení v čistém Home Assistantu
 
+Pokud nechcete používat aplikaci LUFTaTOR, můžete jednotky od společnosti Atrea s řízením RD5 připojit i přímo pomocí následujícího návodu. 
+
+
 ![Widget Atrea RD5](./img/atrea-rd5-homeassistant.png)
 
 - Do souboru configuration.yaml v Home Assistantu přidejte obsah souboru [configuration.yaml](/home-assistant/atrea-rd5/configuration.yaml) a řetězec IP_ADDRESS nahraďte skutečnou IP adresou Vaší rekuperační jednotky (např. 192.168.0.10)
