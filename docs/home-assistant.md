@@ -89,7 +89,7 @@ Přístup si však můžete elegantně vyřešit také zdarma pomocí služby [T
 - Do svého Home Assistantu přidejte plugin Tailscale a postupujte podle [oficiálního návodu](https://www.home-assistant.io/integrations/tailscale/)
 
 <HABadge
-redirect="config_flow_start?domain=tailscale"
+redirect="supervisor_addon/?addon=a0d7b954_tailscale&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository"
 text="Nastavit Tailscale na"
 title="Nastavit Tailscale na Vašem Home Assistantovi"
 />
