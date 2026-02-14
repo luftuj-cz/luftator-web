@@ -15,6 +15,12 @@ Home Assistant je open-source domácí automatizace, kterou můžete ve své dom
 
 Home Assitant je možné spustit na široké škále zařízení (Raspberry Pi 4 nebo novější, x86 mini počítače a další). Nejsnadnější je však použití Home Assistant Green.
 
+:::warning[Pozor]
+
+Přestože Home Asisstant je možné provozovat i na Raspberry Pi 3, aplikace LUFTaTOR na této platformě nefunguje z důvodu zastarelé instrukční sady.
+
+:::
+
 Pokud budete pro svou automatizaci vzduchotechniky využívat tlačítka, která lze využít jako boost tlačítka nebo čidel kvality ovzduší (CO₂, PM2.5, VOC, teploty, vlhkosti...)
 , která můžete využít k automatickému řízení, bude se Vám zřejmě hodit i rozhraní Zigbee nebo Matter. K tomu doporučujeme zakoupit Home Assistant Connect ZBT-2.
 
