@@ -7,7 +7,7 @@ import ButtonParams from '@site/src/components/ButtonParams';
 
 # Aeotec Button
 
-<ButtonParams dimensions="41×41×15mm" interf="Zigbee" count="1" events="true"></ButtonParams>
+<ButtonParams dimensions="41×41×15mm" interf="Zigbee" count="1" events="krátké stisknutí, dlouhé stisknutí, dvojité stisknutí"></ButtonParams>
 
 ![Aeotec Button](./img/aeotec-button.png)
 
