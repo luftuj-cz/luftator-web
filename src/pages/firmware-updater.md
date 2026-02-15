@@ -24,9 +24,3 @@ Odpojte napájení předtím než připojíte LUFTaTOR pomocí USB. Připojení 
 
 <LuftatorFWUpdateButton version="1.1.0"></LuftatorFWUpdateButton>
 
-<script>
-    const version = "1.1.0";
-
-
-
-</script>
