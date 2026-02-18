@@ -40,7 +40,7 @@ Pro pokračování v tomto návodu musíte mít:
             <ul>
                 <li>v menu klikněte na Nastavení | Aplikace | Nainstalovat aplikaci</li>
                 <li>v pravém horním rohu klikněte na tlačítko se třemi tečkami</li>
-                <li>v zobrazeném menu klikněte na Repozitáře</li>
+                <li>v zobrazeném menu klikněte na Repozitáře abc</li>
                 <li>zadejte https://github.com/luftuj-cz/home-assistant</li>
                 <li>Klikněte na tlačítko "Přidat"</li>
             </ul>
