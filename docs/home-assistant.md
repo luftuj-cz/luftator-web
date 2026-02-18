@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 # Home Assistant
 
-Home Assistant je open-source domácí automatizace, kterou můžete ve své domácnosti použít za zlomek ceny konkurenčních komerčních produktů.
+Home Assistant je open-source domácí automatizace, kterou můžete ve své domácnosti použít za zlomek ceny konkurenčních komerčních produktů..
 
 ## Jaký hardware budete potřebovat?
 
