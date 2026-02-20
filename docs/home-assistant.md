@@ -56,11 +56,10 @@ Tento krok provádějte pouze pokud využíváte zařízení (tlačítka, čidla
 <Tabs groupId="repo"queryString>
 <TabItem value="automatic" label="Automaticky" default>
 <ul>
-<li>Klikněte na tlačítko <HABadge
-redirect="supervisor_add_addon_repository?repository_url=https%3A%2F%2Fgithub.com%zigbee2mqtt%2Fhassio-zigbee2mqtt"
+<li>Klikněte na tlačítko <HABadge redirect="supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fzigbee2mqtt%2Fhassio-zigbee2mqtt"
 text="Přidat repozitář do"
 title="Přidat repozitář zigbee2mqtt/hassio-zigbee2mqtt"
-/></li>
+></HABadge></li>
 <li>Potvrďte tlačítkem "Open link"</li>
 <li>Klikněte na tlačítko "Přidat"</li>
 </ul>
