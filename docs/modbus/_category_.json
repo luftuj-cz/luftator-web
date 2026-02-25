@@ -1,0 +1,9 @@
+{
+  "label": "Modbus převodníky",
+  "position": 8,
+  "link": {
+    "type": "generated-index",
+    "slug": "/modbus",
+    "description": "Převodníky Modbus RTU / Modbus TCP"
+  }
+}

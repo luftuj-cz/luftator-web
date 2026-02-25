@@ -7,7 +7,7 @@ import SensorParams from '@site/src/components/SensorParams';
 
 # Ikea ALPSTUGA
 
-<SensorParams dimensions="90×40×40mm" interf="Matter" power="USB-C" measurements="CO₂, PM2.5, teplota, relativní vlhkost, kvalita vzduchu"></SensorParams>
+<SensorParams dimensions="90×40×40mm" interf="Matter-over-Thread" power="USB-C" measurements="CO₂, PM2.5, teplota, relativní vlhkost, kvalita vzduchu"></SensorParams>
 
 Ikea ALPSTUGA je levné a zároveň designové čidlo kvality vzduchu komunikující protokolem Matter přes Thread. Hodnoty měření jsou ve srovnání ostatními čidly z levnější kategorie velmi dobré.
 
