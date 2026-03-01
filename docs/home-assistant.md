@@ -13,18 +13,19 @@ Home Assistant je open-source domácí automatizace, kterou můžete ve své dom
 
 ## Jaký hardware budete potřebovat?
 
-Home Assitant je možné spustit na široké škále zařízení (Raspberry Pi 4 nebo novější, x86 mini počítače a další). Nejsnadnější je však použití Home Assistant Green.
+Home Assitant je možné spustit na široké škále zařízení (Raspberry Pi 4 nebo novější, x86 mini počítače a další). Nejsnadnější je však použití Home Assistant Green. 
+Aby bylo možné použít aplikace v Home Assistantu, je potřeba zvolit instalaci s využitím HA OS ([více informací](https://www.home-assistant.io/installation/#about-installation-types))
 
 :::warning[Pozor]
 
-Přestože Home Asisstant je možné provozovat i na Raspberry Pi 3, aplikace LUFTaTOR na této platformě nefunguje z důvodu zastarelé instrukční sady.
+Přestože Home Assistant je možné provozovat i na Raspberry Pi 3, aplikace LUFTaTOR na této platformě nefunguje z důvodu zastarelé instrukční sady.
 
 :::
 
 Pokud budete pro svou automatizaci vzduchotechniky využívat tlačítka, která lze využít jako boost tlačítka nebo čidel kvality ovzduší (CO₂, PM2.5, VOC, teploty, vlhkosti...)
 , která můžete využít k automatickému řízení, bude se Vám zřejmě hodit i rozhraní Zigbee nebo Matter. K tomu doporučujeme zakoupit Home Assistant Connect ZBT-2.
 
-:::note[Upozornění]
+\:::note[Upozornění]
 
 Pomocí jednoho modulu Home Assistant Connect ZBT-2 můžete připojit libovolné množství komponent připojených po Zigbee nebo Matter. Nelze však kombinovat protokol Zigbee a Matter.
 Při výběru komponent tak dbejte na to, aby všechny komponenty komunikovali stejným protokolem.
@@ -78,11 +79,19 @@ text="Přidat repozitář do" title="Přidat repozitář zigbee2mqtt/hassio-zigb
 - Klikněte na `Otevřít webové rozhraní` (pokud se zobrazí chyba 503, prověďte obnovení stránky)
 - V nastavení vyberte adaptér (obvykle `/dev/ttyUSB0`)
 
-### Instalace Matter / Thread
+### Instalace Matter
+
+- Nainstalujte integraci Matter <HABadge
+  redirect="config_flow_start?domain=matter"
+  text="Přidat Matter do"
+  title="Přidat Matter do Vašeho Home Assistantu"
+  />
+
+### Instalace Matter over Thread
 
 :::note[Upozornění]
 
-Tento krok provádějte pouze pokud využíváte zařízení (tlačítka, čidla CO₂...) podporující protokol Matter.
+Tento krok provádějte pouze pokud využíváte zařízení (tlačítka, čidla CO₂...) podporující protokol Matter Over Thread.
 
 :::
 

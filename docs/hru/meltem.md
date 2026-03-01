@@ -23,7 +23,7 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Meltem č
 
 ## Připojení jednotky
 
-Rekuperační jednotky Xhouse a Xflat disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
+Rekuperační jednotky Meltem disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
 
 Zapojení Modbus RTU v jednotce Meltem je následující
 
