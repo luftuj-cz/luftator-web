@@ -22,5 +22,6 @@ Odpojte napájení předtím než připojíte LUFTaTOR pomocí USB. Připojení 
 4) Klikněte na tlačítko "Aktualizovat firmware" a vyberte správný port
 
 
-<LuftatorFWUpdateButton version="1.1.0"></LuftatorFWUpdateButton>
+<LuftatorFWUpdateButton version="1.1.1"></LuftatorFWUpdateButton>
 
+[Seznam změn](/firmware-changelog)
