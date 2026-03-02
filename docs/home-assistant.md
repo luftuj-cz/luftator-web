@@ -25,7 +25,7 @@ Přestože Home Assistant je možné provozovat i na Raspberry Pi 3, aplikace LU
 Pokud budete pro svou automatizaci vzduchotechniky využívat tlačítka, která lze využít jako boost tlačítka nebo čidel kvality ovzduší (CO₂, PM2.5, VOC, teploty, vlhkosti...)
 , která můžete využít k automatickému řízení, bude se Vám zřejmě hodit i rozhraní Zigbee nebo Matter. K tomu doporučujeme zakoupit Home Assistant Connect ZBT-2.
 
-\:::note[Upozornění]
+:::note[Upozornění]
 
 Pomocí jednoho modulu Home Assistant Connect ZBT-2 můžete připojit libovolné množství komponent připojených po Zigbee nebo Matter. Nelze však kombinovat protokol Zigbee a Matter.
 Při výběru komponent tak dbejte na to, aby všechny komponenty komunikovali stejným protokolem.
@@ -35,6 +35,8 @@ Při výběru komponent tak dbejte na to, aby všechny komponenty komunikovali s
 ## Instalace
 
 Pokud jste zkoupili Home Assistant Green je Home Assistant již předinstalován,v případě instalace na Raspberry Pi využite [oficiální návod](https://www.home-assistant.io/installation/raspberrypi)
+V případě využití přeinstalovaného Home Assistantu proveďte jako první krok aktualizaci operačního systému i Home Assistant supervisoru. Starší verze můžu způsobovat problémy
+s instalací doplňků.
 
 Pro použití LUFTaTOR budete potřebovat nainstalovat integraci MQTT, pro externí tlačítka či čidla kvality ovzduší pak rozšíření zigbee2mqtt.
 
