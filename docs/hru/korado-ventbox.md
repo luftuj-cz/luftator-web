@@ -23,20 +23,26 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky KORADO VE
 
 ## Připojení jednotky
 
-Rekuperační jednotky KORADO VENTBOX disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
+Rekuperační jednotky KORADO VENTBOX od verze FW 2.487 přímo disponují rozhraním ModbusTCP. Pokud máte starší verzi FW, stáhněte si aktuální ze stránek výrobce,
+připojte se na webové rozhraní rekuperační jednotky a firmware poaktualizujte.
 
-Zapojení Modbus RTU na jednotkách KORADO VENTBOX je následující
+![Aktualizace firmwaru](./img/ventbox_fw_update.png)
 
-![Připojení modbus rozhraní na jednotkách KORADO VENTBOX](./img/korado-modbus.png)
+
 
 ## Nastavení jednotky
 
-- Jednotka musí být nastavena na: Režim – Týdenní
-- V nastavení chodu v týdenním režimu (ikona kalendář) nastavit na všech 10 možných režimech v nastavení dnů jen samé čárky, aby jednotka poslouchala nadřazený systém
-- V tabulce Modbus je nutné dodržet pokyny v zelené tabulce
+- Jednotka musí být nastavena na:
+  - **Režim**: Týdenní
+  - **Ext. komunikace**: TCP/IP
 
+![Servisní nastavení](./img/ventbox_modbus_cfg.png)
+
+- V nastavení chodu v týdenním režimu (ikona kalendář) nastavit na všech 10 možných režimech v nastavení dnů jen samé čárky, aby jednotka poslouchala nadřazený systém
+
+![Nastavení týdenního režimu](./img/ventbox_schedule.png)
 
 ## Nastavení v aplikaci LUFTaTOR
 
 - Zvolte typ jednotky `KORADO VENTBOX`
-- Zadejte IP adresu převodníku a port 502
+- Zadejte IP adresu jednotky, port 502 a unit ID stejné jako v `MDB Slave ID` v nastavení jednotky (výchozí hodnota je 3)
