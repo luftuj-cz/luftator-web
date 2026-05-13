@@ -21,6 +21,8 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky KORADO VE
 
 <HRUIntegrationParams interf="ModbusTCP" power="0-100%"></HRUIntegrationParams>
 
+![KORADO VENTBOX v aplikaci LUFTaTOR](./img/korado-luftator.png)
+
 ## Připojení jednotky
 
 Rekuperační jednotky KORADO VENTBOX od verze FW 2.487 přímo disponují rozhraním ModbusTCP. Pokud máte starší verzi FW, stáhněte si aktuální ze stránek výrobce,

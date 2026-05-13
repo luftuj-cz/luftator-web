@@ -21,6 +21,8 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Meltem č
 
 <HRUIntegrationParams interf="ModbusTCP" power="m³/h"></HRUIntegrationParams>
 
+![Meltem v aplikaci LUFTaTOR](./img/meltem-luftator.png)
+
 ## Připojení jednotky
 
 Rekuperační jednotky Meltem disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).

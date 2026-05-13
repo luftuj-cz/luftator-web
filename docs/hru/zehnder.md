@@ -21,6 +21,8 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Zehnder �
 
 <HRUIntegrationParams interf="ModbusTCP" power="0-3" mode="standard, cool, warm"></HRUIntegrationParams>
 
+![Zehnder v aplikaci LUFTaTOR](./img/zehnder-luftator.png)
+
 ## Připojení jednotky
 
 Pro připojení jednotky Zehnder k chytré domácnosti potřebujete zakoupit modul [Zehnder ComfoConnect](https://www.zehnder.cz/cs/komfortni-vetrani/produkty/vetraci-jednotky/ovladani/zehnder-comfoconnect-pro). 

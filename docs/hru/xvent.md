@@ -21,6 +21,8 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Xhouse, X
 
 <HRUIntegrationParams interf="ModbusTCP" power="stupně 0 - 7"></HRUIntegrationParams>
 
+![Xvent v aplikaci LUFTaTOR](./img/xvent-luftator.png)
+
 ## Připojení jednotky
 
 Rekuperační jednotky Xhouse a Xflat disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).

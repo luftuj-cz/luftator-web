@@ -19,6 +19,8 @@ Podpořte tento open-source projekt zakoupením rekuperační jednotky Atrea Dup
 
 <HRUIntegrationParams interf="ModbusTCP" power="0-100%" temperature="true" mode="true"></HRUIntegrationParams>
 
+![Atrea RD5 v aplikaci LUFTaTOR](./img/atrea-rd5-luftator.png)
+
 ## Připojení jednotky
 
 Rekuperační jednotky Atrea disponují protokolem Modbus TCP, stačí tedy zapojit jednotku pomocí síťového kabelu do Vašeho routeru.
