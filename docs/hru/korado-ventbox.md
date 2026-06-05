@@ -44,6 +44,10 @@ připojte se na webové rozhraní rekuperační jednotky a firmware poaktualizuj
 
 ![Nastavení týdenního režimu](./img/ventbox_schedule.png)
 
+- Na hlavní obrazovce musí být nastaven "Automatický režim" (písmeno A) a jednotka musí být zapnuta (červená ikona power).
+
+![Základní nastavení Ventbox](./img/ventbox_settings.png)
+
 ## Nastavení v aplikaci LUFTaTOR
 
 - Zvolte typ jednotky `KORADO VENTBOX`
