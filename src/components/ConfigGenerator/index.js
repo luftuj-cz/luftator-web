@@ -6,7 +6,7 @@ const NUM_SERVOS = 4;
 
 // Conversion formula: 800 us = 0°, 1700 us = 90°
 // pulse = 800 + (angle * (1700-800)/90) = 800 + angle * 10
-const angleToPulse = (angle) => 800 + (angle * 10);
+const angleToPulse = (angle) => 488 + (angle * (1587-488) / 90);
 
 export default function ConfigGenerator() {
   const [values, setValues] = useState(() => {
