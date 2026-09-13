@@ -4,6 +4,6 @@
   "link": {
     "type": "generated-index",
     "slug": "/rekuperacni-jednotky",
-    "description": "Seznam podporovaných rekuperačních jednotek a návody jak je připojit"
+    "description": "Seznam podporovaných rekuperačních jednotek v Home Assistant addonu LUFTaTOR a návody jak je připojit"
   }
 }
