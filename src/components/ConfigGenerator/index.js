@@ -5,6 +5,7 @@ const NUM_SCENES = 4;
 const NUM_SERVOS = 4;
 
 // Conversion formula: 800 us = 0°, 1700 us = 90°
+// Aby to bylo stejné jako na Luftator Control, tak 488 us = 0° a 1586 us = 90°
 // pulse = 800 + (angle * (1700-800)/90) = 800 + angle * 10
 const angleToPulse = (angle) => 488 + (angle * (1587-488) / 90);
 
