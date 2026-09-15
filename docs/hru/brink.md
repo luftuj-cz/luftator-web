@@ -21,7 +21,7 @@ Jednotka dále poskytuje přívodní a odvodní teplotu a informaci o nutnosti v
 
 Rekuperační jednotky Brink Flare disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
 
-![Brink](/img/brink_modbus_connection.jpg)
+![Brink](./img/brink_modbus_connection.png)
 
 
 ## Nastavení v aplikaci LUFTaTOR
