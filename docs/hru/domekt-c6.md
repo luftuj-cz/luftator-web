@@ -8,17 +8,13 @@ import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
 Připojení rekuperačních jednotek Domekt s řízením C6 od společnosti [Komfovent](https://www.komfovent.com/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
-:::warning[Experimentální podpora]
-
-Podpora této jednotky je zatím experimentální, čeká se na otestování reálné jednotce
-
-:::
-
 ## Parametry integrace
 
-<HRUIntegrationParams interf="ModbusTCP" power="stupně 1 - 4" temperature="5 - 40 °C"></HRUIntegrationParams>
+<HRUIntegrationParams interf="ModbusTCP" power="m³/h" temperature="true></HRUIntegrationParams>
 
-Jednotka dále poskytuje vnitřní, venkovní a přívodní teplotu, intenzitu ventilátorů, zanesení filtrů, účinnost rekuperace, nativní režim a chybový stav.
+Ovládat lze také úplně vypnutí jednotky, řídit předehřev a vyvážení ventilátorů.
+
+Jednotka dále poskytuje informace o zanesení filtrů, přívodní teplotě a teplotě odtahu.
 
 ## Připojení jednotky
 
@@ -28,3 +24,4 @@ Jednotka dále poskytuje vnitřní, venkovní a přívodní teplotu, intenzitu v
 
 - Zvolte typ jednotky `Komfovent Domekt C6`
 - Zadejte IP adresu jednotky a port 502
+- Zvolte maximální průtok jednotky
