@@ -46,9 +46,8 @@ escape() { local s="${1//\\/\\\\}"; printf '%s' "${s//\"/\\\"}"; }
   echo 'fail'
   echo 'show-error'
   echo 'silent'
-  cd build
-  find . -type f -print0 | while IFS= read -r -d '' file; do
-    rel="${file#./}"
+  find build -type f -print0 | while IFS= read -r -d '' file; do
+    rel="${file#build/}"
     dir="$(dirname "$rel")"
     [[ "$dir" == "." ]] && dir="" || dir="${dir// /%20}/"
     printf 'upload-file = "build/%s"\n' "$(escape "$rel")"
