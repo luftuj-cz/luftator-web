@@ -1,3 +1,63 @@
 [tools]
 node = "latest"
 npm = "latest"
+
+[tasks.deploy]
+description = "Build the Docusaurus site and upload it via FTP to DEPLOY_FTP_TARGET"
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ ! -f .env ]]; then
+  echo "Missing .env file" >&2
+  exit 1
+fi
+set -a
+source .env
+set +a
+: "${DEPLOY_FTP_TARGET:?DEPLOY_FTP_TARGET is not set in .env}"
+
+# Split ftp://user@host/path into user and URL without user
+scheme="${DEPLOY_FTP_TARGET%%://*}"
+rest="${DEPLOY_FTP_TARGET#*://}"
+if [[ "$rest" == *@* ]]; then
+  ftp_user="${rest%%@*}"
+  rest="${rest#*@}"
+else
+  read -rp "FTP user: " ftp_user
+fi
+target="${scheme}://${rest%/}"
+
+read -rsp "FTP password for ${ftp_user}@${rest%%/*}: " ftp_password
+echo
+
+npm run build
+
+# curl config keeps the password out of the process list
+config="$(mktemp)"
+trap 'rm -f "$config"' EXIT
+chmod 600 "$config"
+
+escape() { local s="${1//\\/\\\\}"; printf '%s' "${s//\"/\\\"}"; }
+
+{
+  printf 'user = "%s:%s"\n' "$(escape "$ftp_user")" "$(escape "$ftp_password")"
+  echo 'ftp-create-dirs'
+  echo 'fail'
+  echo 'show-error'
+  echo 'silent'
+  cd build
+  find . -type f -print0 | while IFS= read -r -d '' file; do
+    rel="${file#./}"
+    dir="$(dirname "$rel")"
+    [[ "$dir" == "." ]] && dir="" || dir="${dir// /%20}/"
+    printf 'upload-file = "build/%s"\n' "$(escape "$rel")"
+    printf 'url = "%s/%s"\n' "$(escape "$target")" "$(escape "$dir")"
+  done
+} > "$config"
+
+count="$(grep -c '^upload-file' "$config")"
+echo "Uploading ${count} files to ${target} ..."
+curl -K "$config"
+echo "Deploy finished."
+'''

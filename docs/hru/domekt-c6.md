@@ -10,7 +10,7 @@ Připojení rekuperačních jednotek Domekt s řízením C6 od společnosti [Kom
 
 ## Parametry integrace
 
-<HRUIntegrationParams interf="ModbusTCP" power="m³/h" temperature="true></HRUIntegrationParams>
+<HRUIntegrationParams interf="ModbusTCP" power="m³/h" temperature="true"></HRUIntegrationParams>
 
 Ovládat lze také úplně vypnutí jednotky, řídit předehřev a vyvážení ventilátorů.
 
