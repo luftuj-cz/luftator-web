@@ -12,7 +12,7 @@ Připojení rekuperačních jednotek VENTBOX od společnosti [Korado](https://ko
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky KORADO VENTBOX či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/korado-a-s/)
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky KORADO VENTBOX či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/korado-a-s/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
 
 :::
 

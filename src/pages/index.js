@@ -11,6 +11,7 @@ const SupportedUnits = [
   {name: 'Atrea Duplex AM (aMotion)', to: '/docs/hru/atrea-am'},
   {name: 'Atrea Duplex RD5', to: '/docs/hru/atrea-rd5'},
   {name: 'Brink Flare', to: '/docs/hru/brink'},
+  {name: 'Elektrodesign S&P Sabik', to: '/docs/hru/elektrodesign-sp-sabik'},
   {name: 'Komfovent Domekt C6', to: '/docs/hru/domekt-c6'},
   {name: 'KORADO VENTBOX', to: '/docs/hru/korado-ventbox'},
   {name: 'Meltem', to: '/docs/hru/meltem'},
@@ -135,11 +136,11 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Jak připojit rekuperaci (řízené větrání se zpětným ziskem tepla) do Home Assistantu a řídit zónové větrání jen tam, kde je potřeba. Podpora jednotek Atrea, Brink, Komfovent, Korado, Meltem, Systemair, Xvent a Zehnder.">
+      description="Jak připojit rekuperaci (řízené větrání se zpětným ziskem tepla) do Home Assistantu a řídit zónové větrání jen tam, kde je potřeba. Podpora jednotek Atrea, Brink, Elektrodesign S&P Sabik, Komfovent, Korado, Meltem, Systemair, Xvent a Zehnder.">
       <Head>
         <meta
           name="keywords"
-          content="rekuperace Home Assistant, rekuperační jednotka Home Assistant, řízené větrání, zpětný zisk tepla, zónové větrání, multizónové větrání, klapky vzduchotechnika, Modbus, Atrea, Brink, Komfovent, Korado Ventbox, Meltem, Systemair, Xvent, Zehnder"
+          content="rekuperace Home Assistant, rekuperační jednotka Home Assistant, řízené větrání, zpětný zisk tepla, zónové větrání, multizónové větrání, klapky vzduchotechnika, Modbus, Atrea, Brink, Elektrodesign, S&P Sabik, Komfovent, Korado Ventbox, Meltem, Systemair, Xvent, Zehnder"
         />
       </Head>
       <HomepageHeader />

@@ -8,6 +8,12 @@ import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
 Připojení rekuperačních jednotek Flare od společnosti [Brink](https://www.brinkclimatesystems.com/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
+:::tip
+
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Brink Flare či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/brink-climate-systems/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
+
+:::
+
 
 ## Parametry integrace
 

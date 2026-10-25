@@ -12,7 +12,7 @@ Připojení rekuperačních jednotek od společnosti [Meltem](https://www.meltem
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Meltem či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/meltem/)
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Meltem či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/meltem/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
 
 :::
 

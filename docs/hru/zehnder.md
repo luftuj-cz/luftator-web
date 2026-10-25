@@ -12,7 +12,7 @@ Připojení rekuperačních jednotek [Zehnder](https://www.zehnder.cz/cs) k Home
 
 :::tip
 
-Podpořte tento open-source projekt zakoupením rekuperační jednotky Zehnder či příslušenství k ní na eshopu [Luftuj.cz](http://luftuj.cz/vyrobci/zehnder/)
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Zehnder či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/zehnder/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
 
 :::
 

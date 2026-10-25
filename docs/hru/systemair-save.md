@@ -8,6 +8,12 @@ import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
 Připojení rekuperačních jednotek řady SAVE od společnosti [Systemair](https://www.systemair.com/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
+:::tip
+
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Systemair SAVE či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/systemair-a-s/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
+
+:::
+
 
 ## Parametry integrace
 
@@ -22,6 +28,11 @@ Rekuperační jednotky Systemair disponují rozhraním ModbusRTU, pro připojen�
 ![Připojení SystemAir Save](./img/systemair-connection.jpg)
 
 - Pro připojení použijte pravou horní svorkovnici, zapojte signály A,B a GND.
+
+Výchozí nastavení RS485 u jednotky Systemair je:
+- Baudrate: 115200
+- Parity: None
+- Stop bits: 1
 
 :::note[Upozornění]
 Pro ovládání zařízení z HomeAssistantu není Save Connect nutný, je však nutný pro konfiguraci zařízení. Samotný Save Connect neposkytuje rozhraní Modbus TCP.
