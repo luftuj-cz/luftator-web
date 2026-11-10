@@ -10,7 +10,7 @@ import styles from './index.module.css';
 const SupportedUnits = [
   {name: 'Atrea Duplex AM (aMotion)', to: '/docs/hru/atrea-am'},
   {name: 'Atrea Duplex RD5', to: '/docs/hru/atrea-rd5'},
-  {name: 'Brink Flare', to: '/docs/hru/brink'},
+  {name: 'Brink Flair', to: '/docs/hru/brink'},
   {name: 'Elektrodesign S&P Sabik', to: '/docs/hru/elektrodesign-sp-sabik'},
   {name: 'Komfovent Domekt C6', to: '/docs/hru/domekt-c6'},
   {name: 'KORADO VENTBOX', to: '/docs/hru/korado-ventbox'},
