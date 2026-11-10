@@ -4,13 +4,13 @@ sidebar_position: 3
 
 import HRUIntegrationParams from '@site/src/components/HRUIntegrationParams';
 
-# Brink Flare
+# Brink Flair
 
-Připojení rekuperačních jednotek Flare od společnosti [Brink](https://www.brinkclimatesystems.com/) k Home Assistantu pomocí aplikace LUFTaTOR.
+Připojení rekuperačních jednotek Flair od společnosti [Brink](https://www.brinkclimatesystems.com/) k Home Assistantu pomocí aplikace LUFTaTOR.
 
 :::tip
 
-Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Brink Flare či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/brink-climate-systems/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
+Podpořte prosím tento open-source projekt zakoupením rekuperační jednotky Brink Flair či příslušenství k ní na eshopu [Luftuj.cz](https://www.luftuj.cz/vyrobci/brink-climate-systems/) či udělením hvězdičky na [Github stránce projektu](https://github.com/luftuj-cz/home-assistant)
 
 :::
 
@@ -25,7 +25,7 @@ Jednotka dále poskytuje přívodní a odvodní teplotu a informaci o nutnosti v
 
 ## Připojení jednotky
 
-Rekuperační jednotky Brink Flare disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
+Rekuperační jednotky Brink Flair disponují rozhraním ModbusRTU, pro připojení je tedy potřeba použít [převodník ModbusRTU na ModbusTCP](/docs/modbus).
 
 ![Brink](./img/brink_modbus_connection.png)
 
